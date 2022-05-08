@@ -16,7 +16,7 @@ print(a["reaction"])
 > こんにちは。 どうぞよろしくお願いします  
 ## kythonano.send関数の使い方
 ```py
-kythonano.send(送るメッセージ,ID,パスワード,辞書のURL(noneでもOK))
+kythonano.send(送るメッセージ,KanaAPIのID,パスワード,辞書のURL(noneでもOK))
 ```
 ## 帰ってくる辞書型変数について
 kythonano.send関数でKanaAPIに指定された情報が送信され、このような辞書で帰ってきます。  
