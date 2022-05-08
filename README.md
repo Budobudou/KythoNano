@@ -18,7 +18,7 @@ print(a["reaction"])
 ```py
 kythonano.send(送るメッセージ,KanaAPIのID,パスワード,辞書のURL(noneでもOK))
 ```
-## 帰ってくる辞書型変数について
+## 返ってくる辞書型変数について
 kythonano.send関数でKanaAPIに指定された情報が送信され、このような辞書で帰ってきます。  
 > こんにちは  
 {'reaction': 'こんにちは。 どうぞよろしくお願いします', 'times': 'none', 'timee': 'none', 'time': 'none'}  
