@@ -7,8 +7,11 @@ requests
 ## 使用例
 ```py
 import kythonano
-kid = "KanaAPIのID"
-kpass = "パスワード"
+# KanaAPIのID
+kid = "XXXXXX"
+# KanaAPIのパスワード
+kpass = "XXXXXX"
+# 辞書URL
 kdict = "none"
 a = kythonano.send("こんにちは",kid,kpass,kdict)
 print(a["reaction"])
