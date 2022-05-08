@@ -1,7 +1,9 @@
 # KythoNano
 KythonaClient 2.1をベースとしたKythonaのPythonモジュール  
 ## KythonaClientはこちら
-https://github.com/Budobudou/Kythonaclient    
+https://github.com/Budobudou/Kythonaclient
+## 必要パッケージ
+requests
 ## 使用例
 ```py
 import kythonano
