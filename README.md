@@ -7,13 +7,15 @@ requests
 ## 使用例
 ```py
 import kythonano
+# KanaAPIに送るメッセージ
+kmsg = "こんにちは"
 # KanaAPIのID
 kid = "XXXXXX"
 # KanaAPIのパスワード
 kpass = "XXXXXX"
 # 辞書URL
 kdict = "none"
-a = kythonano.send("こんにちは",kid,kpass,kdict)
+a = kythonano.send(kmsg,kid,kpass,kdict)
 print(a["reaction"])
 ```  
 > こんにちは。 どうぞよろしくお願いします  
